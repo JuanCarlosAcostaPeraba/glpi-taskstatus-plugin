@@ -1,0 +1,82 @@
+<root>
+	<name>Task Status Display</name>
+	<key>taskstatus</key>
+
+	<!-- stable | unstable | beta | alpha -->
+	<state>stable</state>
+
+	<description>
+		<short>
+			<en>Visual display of task status in ticket timeline</en>
+			<es_ES>Visualización del estado de las tareas en la línea de tiempo de los tickets</es_ES>
+		</short>
+		<long>
+			<en><![CDATA[
+**Task Status Display** enhances the ticket timeline by showing task status badges directly in the conversation view.
+
+Key features:
+
+- **Visual status badges** - See task status (Information, To do, Done) without opening the task
+- **Color-coded indicators** - Easy identification of task states at a glance
+- **Non-intrusive** - Works seamlessly with existing GLPI timeline
+- **No configuration needed** - Works out of the box
+
+Perfect for teams that need to quickly check task statuses while reviewing ticket conversations.
+			]]></en>
+
+			<es_ES><![CDATA[
+**Task Status Display** mejora la línea de tiempo de los tickets mostrando badges de estado de las tareas directamente en la vista de conversación.
+
+Características principales:
+
+- **Badges de estado visuales** - Ver el estado de las tareas (Información, Por hacer, Hecho) sin abrir la tarea
+- **Indicadores con código de color** - Identificación fácil de los estados de las tareas de un vistazo
+- **No intrusivo** - Funciona perfectamente con la línea de tiempo existente de GLPI
+- **Sin configuración necesaria** - Funciona directamente
+
+Perfecto para equipos que necesitan comprobar rápidamente los estados de las tareas mientras revisan las conversaciones de los tickets.
+			]]></es_ES>
+		</long>
+	</description>
+
+	<homepage>https://github.com/JuanCarlosAcostaPeraba</homepage>
+
+	<authors>
+		<author>Juan Carlos Acosta Perabá</author>
+	</authors>
+
+	<versions>
+		<version>
+			<num>1.0.0</num>
+			<compatibility>~10.0.0</compatibility>
+		</version>
+	</versions>
+
+	<langs>
+		<lang>en_GB</lang>
+		<lang>es_ES</lang>
+	</langs>
+
+	<license>GPL v3+</license>
+
+	<tags>
+		<en>
+			<tag>tasks</tag>
+			<tag>timeline</tag>
+			<tag>tickets</tag>
+			<tag>status</tag>
+			<tag>visual</tag>
+			<tag>enhancement</tag>
+		</en>
+		<es_ES>
+			<tag>tareas</tag>
+			<tag>línea de tiempo</tag>
+			<tag>tickets</tag>
+			<tag>estado</tag>
+			<tag>visual</tag>
+			<tag>mejora</tag>
+		</es_ES>
+	</tags>
+
+</root>
+
