@@ -33,7 +33,7 @@ function plugin_version_taskstatus()
         'version' => TASKSTATUS_VERSION,
         'author'  => 'Juan Carlos Acosta Perabá',
         'license' => 'GPLv3+',
-        'homepage' => 'https://github.com/JuanCarlosAcostaPeraba',
+        'homepage' => 'https://github.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin',
         'requirements' => [
             'glpi' => [
                 'min' => '10.0.0',
@@ -77,4 +77,3 @@ function plugin_taskstatus_uninstall()
     // No hay tablas que eliminar
     return true;
 }
-
