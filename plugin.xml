@@ -5,10 +5,14 @@
 	<!-- stable | unstable | beta | alpha -->
 	<state>stable</state>
 
+	<!-- 40x40px or bigger. Marketplace will resize it. -->
+	<logo>https://raw.githubusercontent.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/main/assets/logo.png</logo>
+
 	<description>
 		<short>
 			<en>Visual display of task status in ticket timeline</en>
 			<es_ES>Visualización del estado de las tareas en la línea de tiempo de los tickets</es_ES>
+			<fr_FR>Affichage visuel du statut des tâches dans la chronologie des tickets</fr_FR>
 		</short>
 		<long>
 			<en><![CDATA[
@@ -36,10 +40,23 @@ Características principales:
 
 Perfecto para equipos que necesitan comprobar rápidamente los estados de las tareas mientras revisan las conversaciones de los tickets.
 			]]></es_ES>
+
+			<fr_FR><![CDATA[
+**Task Status Display** améliore la chronologie des tickets en affichant des badges de statut des tâches directement dans la vue de conversation.
+
+Fonctionnalités principales :
+
+- **Badges de statut visuels** - Voir le statut des tâches (Information, À faire, Terminé) sans ouvrir la tâche
+- **Indicateurs avec code couleur** - Identification facile des états des tâches d'un coup d'œil
+- **Non intrusif** - Fonctionne parfaitement avec la chronologie GLPI existante
+- **Aucune configuration nécessaire** - Fonctionne directement
+
+Parfait pour les équipes qui ont besoin de vérifier rapidement les statuts des tâches lors de la consultation des conversations des tickets.
+			]]></fr_FR>
 		</long>
 	</description>
 
-	<homepage>https://github.com/JuanCarlosAcostaPeraba</homepage>
+	<homepage>https://github.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin</homepage>
 
 	<authors>
 		<author>Juan Carlos Acosta Perabá</author>
@@ -55,6 +72,7 @@ Perfecto para equipos que necesitan comprobar rápidamente los estados de las ta
 	<langs>
 		<lang>en_GB</lang>
 		<lang>es_ES</lang>
+		<lang>fr_FR</lang>
 	</langs>
 
 	<license>GPL v3+</license>
@@ -76,6 +94,14 @@ Perfecto para equipos que necesitan comprobar rápidamente los estados de las ta
 			<tag>visual</tag>
 			<tag>mejora</tag>
 		</es_ES>
+		<fr_FR>
+			<tag>tâches</tag>
+			<tag>chronologie</tag>
+			<tag>tickets</tag>
+			<tag>statut</tag>
+			<tag>visuel</tag>
+			<tag>amélioration</tag>
+		</fr_FR>
 	</tags>
 
 </root>
