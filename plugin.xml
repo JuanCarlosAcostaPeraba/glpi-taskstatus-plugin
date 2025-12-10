@@ -66,8 +66,17 @@ Parfait pour les équipes qui ont besoin de vérifier rapidement les statuts des
 		<version>
 			<num>1.0.0</num>
 			<compatibility>~10.0.0</compatibility>
+			<download_url>https://github.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/releases/download/v1.0.0/glpi-taskstatus-1.0.0.tar.gz</download_url>
 		</version>
 	</versions>
+
+	<screenshots>
+		<screenshot>https://raw.githubusercontent.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/main/assets/screenshots/all.png</screenshot>
+		<screenshot>https://raw.githubusercontent.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/main/assets/screenshots/info.png</screenshot>
+		<screenshot>https://raw.githubusercontent.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/main/assets/screenshots/pending.png</screenshot>
+		<screenshot>https://raw.githubusercontent.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/main/assets/screenshots/done.png</screenshot>
+		<screenshot>https://raw.githubusercontent.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/main/assets/screenshots/none.png</screenshot>
+	</screenshots>
 
 	<langs>
 		<lang>en_GB</lang>
