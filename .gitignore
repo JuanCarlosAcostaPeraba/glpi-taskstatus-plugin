@@ -1,0 +1,133 @@
+# Operating System Files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# IDEs and Editors
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PHPStorm / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Eclipse
+.project
+.buildpath
+.settings/
+
+# Atom
+.atom/
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Emacs
+\#*\#
+.\#*
+
+# PHP
+# Composer
+composer.phar
+vendor/
+composer.lock
+
+# PHP CS Fixer
+.php_cs.cache
+.php-cs-fixer.cache
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml
+
+# Build and Deployment
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+build/
+dist/
+release/
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+*.cache
+tmp/
+temp/
+logs/
+cache/
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Node.js (if using any build tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# GLPI Specific
+# Installation lock files
+install.lock
+
+# Configuration files with sensitive data
+config_db.php
+
+# Files generated during development
+*.orig
+*.rej
+.project
+.buildpath
+
+# Documentation builds (if using tools like PHPDoc)
+docs/build/
+api/
+
+# Test Coverage
+coverage/
+clover.xml
+
