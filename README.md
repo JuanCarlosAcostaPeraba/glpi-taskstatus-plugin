@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="Task Status Display Logo" width="200">
   <h1>Task Status Display</h1>
   
-  [![Version](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/releases)
+  [![Version](https://img.shields.io/badge/Version-2.0.0-green.svg)](https://github.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/releases)
   [![GLPI Marketplace](https://img.shields.io/badge/GLPI_Marketplace-Available-orange.svg)](https://plugins.glpi-project.org/#/plugin/taskstatus)
   [![GLPI](https://img.shields.io/badge/GLPI-11.0.x-blue.svg)](https://glpi-project.org)
   [![License: GPLv3+](https://img.shields.io/badge/License-GPLv3+-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
