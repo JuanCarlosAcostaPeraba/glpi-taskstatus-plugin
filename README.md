@@ -3,8 +3,8 @@
   <h1>Task Status Display</h1>
   
   [![Version](https://img.shields.io/badge/Version-1.0.0-green.svg)](https://github.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin/releases)
-  [![GLPI Marketplace](https://img.shields.io/badge/GLPI_Marketplace-Submited-orange.svg)](https://plugins.glpi-project.org/#/plugin/taskstatus)
-  [![GLPI](https://img.shields.io/badge/GLPI-10.0.x-blue.svg)](https://glpi-project.org)
+  [![GLPI Marketplace](https://img.shields.io/badge/GLPI_Marketplace-Available-orange.svg)](https://plugins.glpi-project.org/#/plugin/taskstatus)
+  [![GLPI](https://img.shields.io/badge/GLPI-11.0.x-blue.svg)](https://glpi-project.org)
   [![License: GPLv3+](https://img.shields.io/badge/License-GPLv3+-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
   [![Maintained](https://img.shields.io/badge/Maintained-yes-success.svg)]()
   
@@ -30,8 +30,8 @@
 
 ## 📦 Requirements
 
-- GLPI **10.0.x**
-- PHP **7.4+**
+- GLPI **11.0.x**
+- PHP **8.1+**
 
 ## 🚀 Installation
 
@@ -130,10 +130,11 @@ When a task status changes, the MutationObserver detects the DOM modification an
 taskstatus/
 ├── setup.php              # Plugin registration + hooks
 ├── plugin.xml             # Plugin metadata for GLPI marketplace
-├── js/
-│   └── taskstatus.js      # Frontend badge injection and updates
-├── css/
-│   └── taskstatus.css     # Styling for status badges
+├── public/
+│   ├── js/
+│   │   └── taskstatus.js  # Frontend badge injection and updates
+│   └── css/
+│       └── taskstatus.css # Styling for status badges
 ├── locales/
 │   ├── en_GB.php          # English translations
 │   ├── es_ES.php          # Spanish translations
@@ -217,8 +218,8 @@ Developed by **[Juan Carlos Acosta Perabá](https://github.com/JuanCarlosAcostaP
 
 ## 📦 Requisitos
 
-- GLPI **10.0.x**
-- PHP **7.4+**
+- GLPI **11.0.x**
+- PHP **8.1+**
 
 ## 🚀 Instalación
 
@@ -317,10 +318,11 @@ Cuando cambia el estado de una tarea, el MutationObserver detecta la modificaci�
 taskstatus/
 ├── setup.php              # Registro del plugin + hooks
 ├── plugin.xml             # Metadatos del plugin para GLPI marketplace
-├── js/
-│   └── taskstatus.js      # Inyección y actualización de badges en frontend
-├── css/
-│   └── taskstatus.css     # Estilos para los badges de estado
+├── public/
+│   ├── js/
+│   │   └── taskstatus.js  # Inyección y actualización de badges en frontend
+│   └── css/
+│       └── taskstatus.css # Estilos para los badges de estado
 ├── locales/
 │   ├── en_GB.php          # Traducciones en inglés
 │   ├── es_ES.php          # Traducciones en español

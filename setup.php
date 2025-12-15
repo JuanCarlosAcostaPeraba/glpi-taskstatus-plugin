@@ -4,7 +4,7 @@ if (!defined('GLPI_ROOT')) {
     die('Direct access not allowed');
 }
 
-define('TASKSTATUS_VERSION', '1.0.0');
+define('TASKSTATUS_VERSION', '2.0.0');
 
 /**
  * Inicialización del plugin (GLPI la ejecuta al cargar el plugin)
@@ -16,11 +16,11 @@ function plugin_init_taskstatus()
     // Marcar el plugin como compatible con CSRF
     $PLUGIN_HOOKS['csrf_compliant']['taskstatus'] = true;
 
-    // Inyectar CSS para los badges de estado
-    $PLUGIN_HOOKS['add_css']['taskstatus'][] = 'css/taskstatus.css';
+    // Inyectar CSS para los badges de estado (GLPI 11 sirve desde /public)
+    $PLUGIN_HOOKS['add_css']['taskstatus'][] = 'public/css/taskstatus.css';
 
     // Inyectar JavaScript para añadir badges de estado en la timeline
-    $PLUGIN_HOOKS['add_javascript']['taskstatus'][] = 'js/taskstatus.js';
+    $PLUGIN_HOOKS['add_javascript']['taskstatus'][] = 'public/js/taskstatus.js';
 }
 
 /**
@@ -36,8 +36,8 @@ function plugin_version_taskstatus()
         'homepage' => 'https://github.com/JuanCarlosAcostaPeraba/glpi-taskstatus-plugin',
         'requirements' => [
             'glpi' => [
-                'min' => '10.0.0',
-                'max' => '10.0.99',
+                'min' => '11.0.0',
+                'max' => '11.0.99',
             ],
         ],
     ];
